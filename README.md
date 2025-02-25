@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+# Animal Rescue System - User Report App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
+The **Animal Rescue System** is a comprehensive platform designed to streamline the process of reporting and rescuing animals in distress. It consists of three main components:
+- **Admin Dashboard** - The UI for administrators to review and update the status of reported animal cases.
+- **Server** - The backend system that manages data and communication between users and administrators.
+- **User Report App** - The frontend application for users to report animal anomalies and track their case status.
+This repository contains the **User Report App**, built with Expo Go for mobile devices. **This project is designed to run locally and does not include a hosted deployment.**
 
-## Get started
+## Features
+- Report an animal in need of rescue by providing details such as location and description.
+- Track the status of reported cases.
+- Simple and user-friendly mobile interface.
 
-1. Install dependencies
+## Technologies Used
+- **Frontend**: React Native (Expo Go)
+- **Styling**: Tailwind CSS
 
-   ```bash
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/userapp-animal-rescue.git
+   cd userapp-animal-rescue
+   ```
+2. Install dependencies:
+   ```sh
    npm install
    ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
+3. Start the app in Expo Go:
+   ```sh
+   expo start
    ```
+4. Scan the QR code with the Expo Go app on your mobile device to run the application.
 
-In the output, you'll find options to open the app in a
+## API Integration
+- The app connects to the backend server to send and retrieve reports.
+- Ensure the backend is running locally before using the app.
+  ```sh
+  node server.js
+  ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+**Note:** This project is intended to run locally. Ensure that you have Node.js and Expo installed before running the application.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
