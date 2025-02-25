@@ -32,12 +32,6 @@ This repository contains the **User Report App**, built with Expo Go for mobile 
    ```
 4. Scan the QR code with the Expo Go app on your mobile device to run the application.
 
-## API Integration
-- The app connects to the backend server to send and retrieve reports.
-- Ensure the backend is running locally before using the app.
-  ```sh
-  node server.js
-  ```
 
 **Note:** This project is intended to run locally. Ensure that you have Node.js and Expo installed before running the application.
 
